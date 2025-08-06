@@ -135,17 +135,17 @@ const Hero = () => {
           <motion.div variants={awardMotionVariants} className="awardList">
             <motion.img
               variants={awardMotionVariants}
-              src="/award1.png"
+              src="award1.png"
               alt=""
             />
             <motion.img
               variants={awardMotionVariants}
-              src="/award2.png"
+              src="award2.png"
               alt=""
             />
             <motion.img
               variants={awardMotionVariants}
-              src="/award3.png"
+              src="award3.png"
               alt=""
             />
           </motion.div>
@@ -192,13 +192,13 @@ const Hero = () => {
           className="follow"
         >
           <motion.a variants={followMotionVariants} href="/">
-            <img src="/instagram.png" alt="" />
+            <img src="instagram.png" alt="" />
           </motion.a>
           <motion.a variants={followMotionVariants} href="/">
-            <img src="/facebook.png" alt="" />
+            <img src="facebook.png" alt="" />
           </motion.a>
           <motion.a variants={followMotionVariants} href="/">
-            <img src="/youtube.png" alt="" />
+            <img src="youtube.png" alt="" />
           </motion.a>
           <motion.div
             variants={followMotionVariants}
@@ -217,7 +217,7 @@ const Hero = () => {
           animate="animate"
           className="certificate"
         >
-          <img src="/certificate.png" alt="" />
+          <img src="certificate.png" alt="" />
           LMA CERTIFIED <br /> PROFESSIONAL <br /> UI DESIGNER
         </motion.div>
 
@@ -276,7 +276,7 @@ const Hero = () => {
           </Suspense>
         </Canvas>
         <div className="heroImage">
-          <img src="/hero.png" alt="" />
+          <img src="hero.png" alt="" />
         </div>
       </div>
     </div>

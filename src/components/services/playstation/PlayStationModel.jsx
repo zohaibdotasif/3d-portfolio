@@ -1,7 +1,7 @@
 import { useGLTF } from "@react-three/drei";
 
 export function PlayStationModel(props) {
-  const { nodes, materials } = useGLTF("/playstationModel.glb");
+  const { nodes, materials } = useGLTF("playstationModel.glb");
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={1.112}>
@@ -18,4 +18,4 @@ export function PlayStationModel(props) {
   );
 }
 
-useGLTF.preload("/playstationModel.glb");
+useGLTF.preload("playstationModel.glb");

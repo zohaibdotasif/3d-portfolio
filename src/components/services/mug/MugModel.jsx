@@ -1,7 +1,7 @@
 import { useGLTF } from "@react-three/drei";
 
 export function MugModel(props) {
-  const { nodes, materials } = useGLTF("/mugModel.glb");
+  const { nodes, materials } = useGLTF("mugModel.glb");
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.233}>
@@ -33,4 +33,4 @@ export function MugModel(props) {
   );
 }
 
-useGLTF.preload("/mugModel.glb");
+useGLTF.preload("mugModel.glb");
