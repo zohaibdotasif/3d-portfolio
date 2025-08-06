@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
-import { PlayStationModel } from "./PlaystationModel";
+import { PlayStationModel } from "./PlayStationModel";
 import { OrbitControls, PerspectiveCamera, Stage } from "@react-three/drei";
 
 const PlayStationModelContainer = () => {
