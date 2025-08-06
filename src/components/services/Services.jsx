@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import Counter from "./Counter";
-import MacbookModelContainer from "./macbook/macbookModelContainer";
+import MacbookModelContainer from "./macbook/MacbookModelContainer";
 import MugModelContainer from "./mug/MugModelContainer";
 import PlayStationModelContainer from "./playstation/PlayStationModelContainer";
 import "./services.css";
